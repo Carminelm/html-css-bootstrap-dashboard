@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*HEADER */
+
+.container_app{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.c_padding{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+main{
+    background-color: #212529 ;
+    display: flex;
+    overflow: hidden;
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+.logo{
+    height: 35px;
+}
+
+.mobile_logo{
+    display: none;
+}
+
+.bell{
+    font-size: 20px;
+    color: rgb(255, 187, 0);
+}
