@@ -154,3 +154,51 @@ main{
 .cb_blaz{
     background-color: #1352b1;
 }
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 160px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.b_radius_top{
+    border-top-left-radius: 0.25rem ;
+    border-top-right-radius: 0.25rem ;
+}
+
+.color_black{
+    color: black;
+}
+
+.stats{
+    width: 100%;
+}
+
+#bb_none, #bb_none1, #bb_none2, #bb_none3, #bb_none4 {
+    border-bottom-color: inherit;
+}
+
+tr td:first-child i{
+    background-color: orangered;
+    padding: 3px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius: 100%;
+    border: 1px solid orangered;
+    margin-right: 5px;
+}
+
+.icon_border{
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid rgb(163, 163, 163);
+    margin-right: 5px;
+}
+
+
+.tr_nuovos{
+    text-align: center;
+}
